@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1201px" height="120px" viewBox="0 0 1201 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>矩形</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="47.6323491%" y1="100%" x2="47.6323491%" y2="7.28549285%" id="linearGradient-1">
+            <stop stop-color="#0A0764" offset="0%"></stop>
+            <stop stop-color="#670E94" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage3" transform="translate(-126.000000, -839.000000)">
+            <g id="编组-5" transform="translate(126.000000, 839.000000)">
+                <g id="编组-11">
+                    <g id="编组-10">
+                        <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="1200" height="120" rx="10"></rect>
+                        <text id="Coming-soon，please-l" font-family="Arial-BoldMT, Arial" font-size="36" font-weight="bold" fill="#549DFE">
+                            <tspan x="255" y="66">Coming  soon</tspan>
+                            <tspan x="494.976562" y="66" font-family="PingFang-SC-Bold, PingFang SC">，</tspan>
+                            <tspan x="530.976562" y="66">please look forward to it</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
