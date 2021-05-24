@@ -2,7 +2,7 @@
   "name": "better-home",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://github.com/vilenice/better",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@tailwindcss/postcss7-compat": "^2.1.2",
@@ -22,7 +22,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
