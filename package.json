@@ -2,7 +2,7 @@
   "name": "better-home",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/vilenice/better",
+  "homepage": "./",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@tailwindcss/postcss7-compat": "^2.1.2",
