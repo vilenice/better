@@ -4,7 +4,11 @@ import worksIcon1 from './img/编组 13.svg';
 import worksIcon2 from './img/编组 14.svg';
 import worksIcon3 from './img/形状.svg';
 import securityIcon from './img/第一徽章.svg';
-import partners from './img/编组 16@2x.png';
+import partners1 from './img/位图@2x (1).png';
+import partners2 from './img/位图@2x (2).png';
+import partners3 from './img/位图@2x (3).png';
+import partners4 from './img/位图@2x (4).png';
+import partners5 from './img/位图@2x (5).png';
 import community1 from './img/位图备份@2x.png';
 import community2 from './img/位图@2x.png';
 import community3 from './img/位图备份 2@2x.png';
@@ -19,7 +23,11 @@ export default {
     worksIcon2,
     worksIcon3,
     securityIcon,
-    partners,
+    partners1,
+    partners2,
+    partners3,
+    partners4,
+    partners5,
     community1,
     community2,
     community3,

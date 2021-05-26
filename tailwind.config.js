@@ -60,7 +60,7 @@ module.exports = {
         fill: theme => ({
             'white': theme('colors.white'),
             'green': theme('colors.gray-DDD'),
-        })
+        }),
     },
     variants: {
         extend: {},
