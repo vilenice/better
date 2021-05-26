@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ba5ee02c.chunk.css",
-    "main.js": "/static/js/main.cde262dc.chunk.js",
-    "main.js.map": "/static/js/main.cde262dc.chunk.js.map",
+    "main.js": "/static/js/main.48e4a765.chunk.js",
+    "main.js.map": "/static/js/main.48e4a765.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.78809bda.js",
     "runtime-main.js.map": "/static/js/runtime-main.78809bda.js.map",
     "static/css/2.e141aa24.chunk.css": "/static/css/2.e141aa24.chunk.css",
-    "static/js/2.083b289c.chunk.js": "/static/js/2.083b289c.chunk.js",
-    "static/js/2.083b289c.chunk.js.map": "/static/js/2.083b289c.chunk.js.map",
+    "static/js/2.0a836bd9.chunk.js": "/static/js/2.0a836bd9.chunk.js",
+    "static/js/2.0a836bd9.chunk.js.map": "/static/js/2.0a836bd9.chunk.js.map",
     "static/js/3.d80cf932.chunk.js": "/static/js/3.d80cf932.chunk.js",
     "static/js/3.d80cf932.chunk.js.map": "/static/js/3.d80cf932.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.e141aa24.chunk.css.map": "/static/css/2.e141aa24.chunk.css.map",
     "static/css/main.ba5ee02c.chunk.css.map": "/static/css/main.ba5ee02c.chunk.css.map",
-    "static/js/2.083b289c.chunk.js.LICENSE.txt": "/static/js/2.083b289c.chunk.js.LICENSE.txt",
+    "static/js/2.0a836bd9.chunk.js.LICENSE.txt": "/static/js/2.0a836bd9.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/编组 20@2x.51aa765e.png",
     "static/media/close.92db04b5.svg": "/static/media/close.92db04b5.svg",
     "static/media/位图@2x (1).166823d8.png": "/static/media/位图@2x (1).166823d8.png",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.78809bda.js",
     "static/css/2.e141aa24.chunk.css",
-    "static/js/2.083b289c.chunk.js",
+    "static/js/2.0a836bd9.chunk.js",
     "static/css/main.ba5ee02c.chunk.css",
-    "static/js/main.cde262dc.chunk.js"
+    "static/js/main.48e4a765.chunk.js"
   ]
 }
