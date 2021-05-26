@@ -95,13 +95,13 @@ function PageFAQ() {
   return (
     <div className="flex flex-col w-full" >
       <div className="flex items-start justify-center text-white" >
-        <img class="hidden sm:flex flex-none w-10 h-10 mt-80 mr-28 opacity-75 hover:opacity-100" src={picture.arrow} onClick={goPrev} />
-        <div class="flex w-full sm:w-120 md:w-160 lg:w-180 xl:w-224 mx-8 sm:mx-0">
+        <img alt="" className="hidden sm:flex flex-none w-10 h-10 mt-80 mr-28 opacity-75 hover:opacity-100" src={picture.arrow} onClick={goPrev} />
+        <div className="flex w-full sm:w-120 md:w-160 lg:w-180 xl:w-224 mx-8 sm:mx-0">
           <Swiper {...params} ref={swiperRef}>
             {dataForFAQ.map(renderItem)}
           </Swiper>
         </div>
-        <img class="hidden sm:flex flex-none w-10 h-10 mt-80 ml-28 transform rotate-180 opacity-75 hover:opacity-100" src={picture.arrow} onClick={goNext} />
+        <img alt="" className="hidden sm:flex flex-none w-10 h-10 mt-80 ml-28 transform rotate-180 opacity-75 hover:opacity-100" src={picture.arrow} onClick={goNext} />
       </div>
       <div className="flex flex-nowrap items-center text-center mx-auto my-8 py-4 px-12">
         {dataForFAQ.map((item, index) => {

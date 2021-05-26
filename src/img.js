@@ -16,7 +16,7 @@ import community4 from './img/位图备份 3@2x.png';
 import arrow from './img/箭头@2x.png';
 import close from './img/close.svg';
 
-export default {
+const Img = {
     logo,
     logoMini,
     worksIcon1,
@@ -35,3 +35,5 @@ export default {
     arrow,
     close
 };
+
+export default Img

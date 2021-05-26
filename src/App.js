@@ -13,7 +13,7 @@ function App() {
       <div className="relative overflow-hidden bg-home-background bg-cover bg-no-repeat bg-top pb-24" >
         <div className="flex flex-col items-center max-w-screen-2xl mx-auto" >
           <div className="flex justify-between w-11/12 my-7" >
-            <img className="flex my-auto h-14" src={picture.logo} />
+            <img alt="" className="flex my-auto h-14" src={picture.logo} />
             <div className="flex justify-end items-center">
               <div className="inline-flex items-center justify-center capitalize text-white hover:text-button-background text-lg w-20 h-9" onClick={() => setVisible(true)} >Docs</div>
               <div className="inline-flex items-center justify-center uppercase font-medium text-white hover:text-button-background hover:bg-white hover:bg-opacity-25 rounded-full border-2 border-button-background text-lg w-20 h-9" onClick={() => setVisible(true)} >app</div>
@@ -50,7 +50,7 @@ function App() {
               <div className="flex flex-col w-full sm:w-88 h-auto sm:h-112 bg-works-red-background rounded-lg m-7">
                 <div className="w-full h-3.5 bg-works-head-red-background rounded-lg" />
                 <div className="flex items-center h-20 ml-5 my-4">
-                  <img className="bg-works-head-red-background rounded-full w-9 h-9 p-1 mx-2 my-auto" src={picture.worksIcon1} />
+                  <img alt="" className="bg-works-head-red-background rounded-full w-9 h-9 p-1 mx-2 my-auto" src={picture.worksIcon1} />
                   <div className="font-semibold text-left italic text-4xl text-white w-64 truncate overflow-hidden" >GET TICKETS</div>
                 </div>
                 <div className="font-normal text-left text-2xl text-white pl-16 pr-10 sm:px-8 pb-8 overflow-ellipsis overflow-hidden" >Deposit into any staking vault and instantly get tickets for each prediction market.</div>
@@ -58,7 +58,7 @@ function App() {
               <div className="flex flex-col w-full sm:w-88 h-auto sm:h-112 bg-works-blue-background rounded-lg m-7">
                 <div className="w-full h-3.5 bg-works-head-blue-background rounded-lg" />
                 <div className="flex items-center h-20 ml-5 my-4">
-                  <img className="bg-works-head-blue-background rounded-full w-9 h-9 p-1 mx-2 my-auto" src={picture.worksIcon2} />
+                  <img alt="" className="bg-works-head-blue-background rounded-full w-9 h-9 p-1 mx-2 my-auto" src={picture.worksIcon2} />
                   <div className="font-semibold text-left italic text-4xl text-white w-64 truncate overflow-hidden" >WIN PRIZES</div>
                 </div>
                 <div className="font-normal text-left text-2xl text-white pl-16 pr-10 sm:px-8 pb-8 overflow-ellipsis overflow-hidden" >Use your tickets to bet on future event. All users with correct predictions will share the prizes. Prizes are made up of the all the interest earned on deposited money in the staking vaults.</div>
@@ -66,7 +66,7 @@ function App() {
               <div className="flex flex-col w-full sm:w-88 h-auto sm:h-112 bg-works-purple-background rounded-lg m-7">
                 <div className="w-full h-3.5 bg-works-head-purple-background rounded-lg" />
                 <div className="flex items-center h-20 ml-5 my-4">
-                  <img className="bg-works-head-purple-background rounded-full w-9 h-9 p-1 mx-2 my-auto" src={picture.worksIcon3} />
+                  <img alt="" className="bg-works-head-purple-background rounded-full w-9 h-9 p-1 mx-2 my-auto" src={picture.worksIcon3} />
                   <div className="font-semibold text-left italic text-4xl text-white w-64 truncate overflow-hidden" >NEVER LOSE</div>
                 </div>
                 <div className="font-normal text-left text-2xl text-white pl-16 pr-10 sm:px-8 pb-8 overflow-ellipsis overflow-hidden" >Remove your deposit at anytime. You will not lose any of your principal. You will even be rewarded with liquidity mining regardless of whether your predictions turn out to be correct or not.</div>
@@ -82,7 +82,7 @@ function App() {
             <div className="flex flex-col items-center font-normal text-center text-6xl text-white mx-auto my-8" >Security Audit</div>
             <div className="flex flex-col items-center bg-security-background rounded-xl p-11 my-6 w-11/12" >
               <div className="flex flex-row items-center">
-                <img className="my-auto flex-initial h-24 mr-8" src={picture.securityIcon} />
+                <img alt="" className="my-auto flex-initial h-24 mr-8" src={picture.securityIcon} />
                 <span className="flex-initial font-medium text-left text-4xl leading-normal text-white" >PoolTogether is an open-source and decentralized protocol that is audited by XXXX.</span>
               </div>
             </div>
@@ -92,11 +92,11 @@ function App() {
             <div className="flex flex-col items-center font-normal text-center text-6xl text-white mx-auto my-8" >Partners</div>
             <OverPack playScale={0} className="h-96">
               <QueueAnim className="demo-content flex flex-row flex-wrap items-center text-center justify-center mx-auto">
-                <img key="a" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners5} />
-                <img key="b" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners1} />
-                <img key="c" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners2} />
-                <img key="d" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners3} />
-                <img key="e" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners4} />
+                <img alt="" key="a" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners5} />
+                <img alt="" key="b" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners1} />
+                <img alt="" key="c" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners2} />
+                <img alt="" key="d" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners3} />
+                <img alt="" key="e" className="my-7 mx-10 sm:mx-16 w-52 sm:w-60 hover:opacity-75" src={picture.partners4} />
               </QueueAnim>
             </OverPack >
           </div>
@@ -108,10 +108,10 @@ function App() {
             </div>
             <OverPack playScale={0} className="h-60">
               <QueueAnim className="demo-content flex flex-row flex-wrap items-center text-center justify-center mx-auto my-11">
-                <img key="a" className="m-4 w-24 h-24 hover:opacity-75" src={picture.community1} />
-                <img key="b" className="m-4 w-24 h-24 hover:opacity-75" src={picture.community2} />
-                <img key="c" className="m-4 w-24 h-24 hover:opacity-75" src={picture.community3} />
-                <img key="e" className="m-4 w-24 h-24 hover:opacity-75" src={picture.community4} />
+                <img alt="" key="a" className="m-4 w-24 h-24 hover:opacity-75" src={picture.community1} />
+                <img alt="" key="b" className="m-4 w-24 h-24 hover:opacity-75" src={picture.community2} />
+                <img alt="" key="c" className="m-4 w-24 h-24 hover:opacity-75" src={picture.community3} />
+                <img alt="" key="e" className="m-4 w-24 h-24 hover:opacity-75" src={picture.community4} />
               </QueueAnim>
             </OverPack >
           </div>
@@ -119,12 +119,12 @@ function App() {
       </div>
       <div className="w-full h-auto bg-bottom-background p-20">
         <div className="flex flex-row flex-wrap items-center text-center justify-center mx-auto">
-          <a className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Docs</a>
-          <a className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Medium</a>
-          <a className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Twitter</a>
-          <a className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Discord</a>
-          <a className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Telegram</a>
-          <a className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">WeChat</a>
+          <div className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Docs</div>
+          <div className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Medium</div>
+          <div className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Twitter</div>
+          <div className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Discord</div>
+          <div className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">Telegram</div>
+          <div className="font-medium mx-4 text-2xl text-bottom-text hover:text-bottom-text-hover">WeChat</div>
         </div>
       </div>
       <Dialog visible={visible} setVisible={setVisible} />
